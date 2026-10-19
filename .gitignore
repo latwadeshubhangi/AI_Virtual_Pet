@@ -1,0 +1,23 @@
+# secrets & environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# saves / exports
+mochi_save.json
+mochi_chat.txt
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
